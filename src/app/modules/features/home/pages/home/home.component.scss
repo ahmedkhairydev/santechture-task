@@ -1,0 +1,8 @@
+.posts-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-auto-rows: minmax(200px, 1fr);
+    grid-gap: 1rem;
+    grid-auto-flow: dense;
+    transition: all 0.5s ease-in;
+}

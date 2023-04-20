@@ -1,0 +1,12 @@
+:host {
+    height: 100%;
+
+    main {
+        overflow: hidden;
+    
+        .main-page {
+            overflow-y: scroll;
+            overflow-x: hidden;
+        }
+    }
+}
